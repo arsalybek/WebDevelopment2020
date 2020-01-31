@@ -1,0 +1,276 @@
+body{
+    width: 100%;
+    background: #EDF0F5;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+#img1{
+    width:100%;
+    height:82px;
+    border:0.2px solid black;
+}
+h1{
+    position:absolute;
+    top:22px;
+    left:183px;
+    margin:0;
+    padding: 0;
+    font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    color:white;
+    letter-spacing: 0.001em;
+}
+.email{
+    position:absolute;
+    top:15px;
+    left:790px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#emailform{
+    position:absolute;
+    top:34px;
+    left:790px;
+    border:0.5px solid black;
+    height: 20px;
+    width:148px;
+}
+.password{
+    position:absolute;
+    top:15px;
+    left:950px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#passwordform{
+    position:absolute;
+    top:34px;
+    left:950px;
+    border:0.5px solid black;
+    height: 20px;
+    width:148px;
+}
+#loginButton{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    position:absolute;
+    top:32px;
+    left:1116px;
+    padding:4px;
+    border:solid 0.1px rgb(1, 1, 126);
+    background-color:#4267B2;
+    color:white;
+    width:50px;
+    height:24px;
+}
+#a1{
+    color:rgb(195, 211, 255);
+    text-decoration: none;
+    position:absolute;
+    top:62px;
+    left:950px;
+    opacity: 0.8;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#a1:hover{
+    text-decoration: underline rgb(195, 211, 255) ;
+}
+h2{
+    position:absolute;
+    top:65px;
+    left:765px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size:40px;
+    color:black;
+    letter-spacing: 0.001em;  
+}
+h3{
+    position:absolute;
+    top:130px;
+    left:765px;
+    font-weight: normal;
+    font-family:Helvetica, Arial, sans-serif;
+    opacity: 0.9;
+}
+#firstname{
+    position:absolute;
+    top:190px;
+    left:765px;
+    border:0.5px solid rgb(182, 176, 176);
+    border-radius: 5px;
+    height: 20px;
+    width:193px;
+    height: 35px;
+    font-size: 16.8px;
+    font-weight: 520;
+    color: rgb(151, 149, 149);
+}
+#lastname{
+    display: inline-block;
+    position:absolute;
+    top:190px;
+    left:973px;
+    border:0.5px solid rgb(182, 176, 176);
+    border-radius: 5px;
+    height: 20px;
+    width:170px;
+    height: 35px;
+    font-size: 16.8px;
+    font-weight: 520;
+    color: rgb(151, 149, 149)
+}
+#mobemail{
+    display: inline-block;
+    position:absolute;
+    top:243px;
+    left:765px;
+    border:0.5px solid rgb(182, 176, 176);
+    border-radius: 5px;
+    height: 20px;
+    width:378px;
+    height: 35px;
+    font-size: 16.8px;
+    font-weight: 520;
+    color: rgb(151, 149, 149)
+}
+#password{
+    display: inline-block;
+    position:absolute;
+    top:296px;
+    left:765px;
+    border:0.5px solid rgb(182, 176, 176);
+    border-radius: 5px;
+    height: 20px;
+    width:378px;
+    height: 35px;
+    font-size: 16.8px;
+    font-weight: 520;
+    color: rgb(151, 149, 149)
+}
+.birthday{
+    position:absolute;
+    top:353px;
+    left:765px;
+    font-weight: bold;
+    font-family:Helvetica, Arial, sans-serif;
+    color: rgb(153, 152, 152);
+}
+#month{
+    display: inline-block;
+    position:absolute;
+    top:378px;
+    left:765px;
+    border:0.5px solid rgb(182, 176, 176);
+    width:75px;
+    height: 29px;
+    font-size: 13px;
+    font-weight: 520;
+    color: black;
+    text-align: center;
+}
+#days{
+    display: inline-block;
+    position:absolute;
+    top:378px;
+    left:840px;
+    border:0.5px solid rgb(182, 176, 176);
+    width:63px;
+    height: 29px;
+    font-size: 13px;
+    font-weight: 520;
+    color: black;
+    text-align: center;
+}
+#years{
+    display: inline-block;
+    position:absolute;
+    top:378px;
+    left:903px;
+    border:0.5px solid rgb(182, 176, 176);
+    width:63px;
+    height: 29px;
+    font-size: 13px;
+    font-weight: 520;
+    color: black;
+    text-align: center;
+}
+p{
+    position:absolute;
+    top:405px;
+    left:765px;
+    font-weight: bold;
+    font-family:Helvetica, Arial, sans-serif;
+    color: rgb(153, 152, 152);
+}
+input[type="radio"]{
+    display: inline-block;
+    position: relative;
+    top:290px;
+    left:770px;
+    padding: 0;
+    margin: 5px;
+    
+}
+#radio{
+    font-size: 19px;
+    display: inline-block;
+    position: relative;
+    top:290px;
+    left:765px;
+    padding: 0;
+    margin: 0;
+    word-spacing: 5em;
+}
+h4{
+    font-size: 12px;
+    position: absolute;
+    top:470px;
+    left:765px;
+    font-weight: normal;
+    color:gray;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline blue ;
+}
+.SignUpbutton{
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size:17px;
+    border:none;
+    border-radius: 5px;
+    position:absolute;
+    left:760px;
+    top:550px;
+    background-color:#65A852;
+    color:white;
+    width:190px;
+    height: 40px;
+    font-weight: 500;
+}
+.SignUpbutton:hover{
+    background-color: #28A745;
+}
+#img2{
+    position:absolute;
+    left:160px;
+    top:175x;
+}
+h5{
+    font-size:23px;
+    font-weight: bold;
+    position:absolute;
+    left:170px;
+    top:115px; 
+    margin: 0;
+    color: rgb(1, 1, 126);
+}
